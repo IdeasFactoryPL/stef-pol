@@ -1158,6 +1158,8 @@ pre code {
   .container {
     max-width: 970px;
   }
+	
+	
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -1185,6 +1187,10 @@ pre code {
     border-right: 2px dashed #cccccc;
     
   }
+	
+	header .col-md-4 {
+	border-right-style: none;
+}
   .col-md-4:last-child{
     
     border-right-style: none;

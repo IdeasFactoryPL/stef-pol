@@ -23,6 +23,7 @@
 
 		</div>
 	</div>
+	
 		<?php
 		/* A sidebar in the footer? Yep. You can customize
 		 * your footer with three columns of widgets.
