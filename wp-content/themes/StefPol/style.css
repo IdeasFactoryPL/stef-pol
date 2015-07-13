@@ -224,7 +224,7 @@ padding-top: 3px;
 }
 
 #footer > .container {
-  padding-left: 60px;
+  padding-left: 15px;
   padding-right: 15px;
 }
 .container .credit {
@@ -773,45 +773,4 @@ box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 
 
 footer .col-md-4 {
 	border-right: 0;
-	width: 50%;
-}
-
-footer .col-md-4:first-child,
-footer .col-md-4:last-child{
-	width: 25%;
-}
-
-.footer-tytulowy {
-	text-align: center;
-	color: #242424;
-	margin-top: 20px;
-	font-size: 14px;
-	
-}
-
-
-
-.footer-tytulowy h5 {
-	font-weight: bold;
-	font-size: 13px;
-}
-
-.envelope {
-	width: 30%;
-	margin-top: 10px;
-	margin-left: -80px;
-}
-
-footer .textwidget {
-	text-align: center;
-}
-
-.logo-bottom {
-	width: 90%;
-	margin-top: 15px;
-
-}
-
-footer .row {
-	margin-left: 0px;
 }
