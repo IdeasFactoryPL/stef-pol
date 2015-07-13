@@ -3954,6 +3954,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+    width: 100%;
 }
 
 .nav:before,
@@ -4009,6 +4010,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  width: 25%;
+  text-align: center;
+  border-top: 3px solid #ff0000;
 }
 
 .nav > li > a {
