@@ -396,6 +396,20 @@ p {
   margin: 0 0 10px;
 }
 
+.konp p{
+
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.ConForm{
+
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16.099999999999998px;
@@ -7304,4 +7318,16 @@ td.visible-print {
 
 .affix {
   position: fixed;
+}
+
+#post-89 .entry-header{
+
+    display: none;
+
+}
+
+.page-id-89 #main-container {
+
+    margin-top: 30px;
+
 }

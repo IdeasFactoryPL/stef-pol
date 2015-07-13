@@ -3,14 +3,14 @@
 /* Submit Button in Comment as per theme color */
 input:hover[type="submit"]{
 color: #ffffff;
-background-color: #b83c11;
-border-color: #a5360f;
+background-color: #be1111;
+border-color: #be1111;
 }
 
 input[type="submit"] {
 color: #ffffff;
-background-color: #dd4814;
-border-color: #dd4814;
+background-color: #d91212;
+border-color: #d91212;
 }
 
 #header-top {
