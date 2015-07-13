@@ -1182,7 +1182,15 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333333333%;
+    border-right: 2px dashed #cccccc;
+    
   }
+  .col-md-4:last-child{
+    
+    border-right-style: none;
+    
+  }
+    
   .col-md-5 {
     width: 41.66666666666667%;
   }
