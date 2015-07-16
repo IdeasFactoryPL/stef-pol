@@ -141,16 +141,21 @@ class CategoryPosts extends WP_Widget {
 				<?php endif; ?>
 			</li>
 			
-			<div class="odstep">	
-			</div>
+
 			
 			<?php
 		}
 		
-		echo "</ul>\n";
-		
+		echo "<br></ul>\n";
+		echo '<div class="small button"> <a href="' . get_category_link($instance["cat"]) . '"><span>Więcej</span></a></div>';
 		echo $after_widget;
 
+		?>
+		
+			<div class="odstep">	
+			</div>
+		<?php
+		
 		remove_filter('excerpt_length', $new_excerpt_length);
 		
 		wp_reset_postdata();
