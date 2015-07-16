@@ -1198,7 +1198,7 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333333333%;
-    border-right: 2px dashed #cccccc;
+    border-right: 1px dashed #cccccc;
     
   }
 	
@@ -7323,11 +7323,5 @@ td.visible-print {
 #post-89 .entry-header{
 
     display: none;
-
-}
-
-.page-id-89 #main-container {
-
-    margin-top: 30px;
 
 }

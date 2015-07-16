@@ -53,7 +53,7 @@ hr.post-meta-hr {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px dashed #ddd;
 }
 
 .post_date, .post_comment {
@@ -87,14 +87,15 @@ margin-left:4px;
 }
 
 .widget-title {
-	font-size: 16px;
-	padding-left: 20px;
-	padding-top: 8px;
+	font-size: 14px;
+	padding-left: 25px;
+	padding-top: 10px;
 	margin-bottom: 10px;
+	matgin-top: -10px;
 	line-height: 1.0;
-	font-weight: bold;
+	font-weight: normal;
 	text-transform: uppercase;
-	color: #e3e3e3;
+	color: #f5f5f5;
 	background-image: url(../openstrap/images/new/red_stripe.jpg);
 	height: 35px;
 }
@@ -108,7 +109,7 @@ h4.widget-title:after{
 
 .widget ul, .widget ol, .widget dl {
   padding:0;
-  margin: 0;
+  margin-left: 25px;
   font-size: 12px;
 }
 
@@ -749,6 +750,53 @@ box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 
 }
 }
 
+/*---------------------------Main Things-------------------------------*/
+
+#main-row {
+	margin-top: 30px;
+}
+
+.page-id-14 #main-row {
+	margin-top: 0;
+}
+
+
+/*---------------------------Categories-------------------------------*/
+
+.error404 .sidebar-left {
+	display: none;
+}
+
+.category .sidebar-left {
+	display: none;
+}
+
+#content .error404 {
+	min-height: 145px;
+}
+
+.category #main-row .col-md-6 {
+	width: 66%;
+	border-right: 1px dashed #CCC
+}
+
+.category .archive-title {
+	font-size: 14px;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	matgin-top: -10px;
+	line-height: 1.0;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	background-image: url(../openstrap/images/new/red_stripe.jpg);
+	height: 35px;
+}
+
+.category .post_comment {
+	display: none;
+}
 
 /*---------------------------FOOTER-------------------------------*/
 
