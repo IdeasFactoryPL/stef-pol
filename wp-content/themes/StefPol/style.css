@@ -831,6 +831,53 @@ font-size: 25px;
 
 }
 
+/*---------------------------SINGLE-POSTS-------------------------------*/
+
+.single-post .panel-default {
+
+display: none;
+    
+}
+
+.single-post .post_comment {
+
+display: none;
+
+}
+
+.single-post #main-row img {
+
+float: left;
+margin-right: 10px;
+
+}
+
+.single-post h1 {
+
+font-size: 25px;
+color: #dd4814;
+margin-top: 0px;
+    
+}
+
+.single-post .widget ul, .widget ol, .widget dl {
+  padding: 0;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
+.single-post footer {
+
+   position:absolute;
+   bottom:0;
+   width:100%;
+   
+}
+
+
+
+
 
 /*---------------------------FOOTER-------------------------------*/
 
