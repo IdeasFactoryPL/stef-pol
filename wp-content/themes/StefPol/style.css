@@ -705,51 +705,6 @@ font-size: 13px;
 text-align: center;
 }
 
-
-@media (max-width: 991px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-	
-	.navbar-search-sm {
-		margin-right: 0px;
-	}	
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
-.navbar-form {
- padding: 0px;
- border:0px;
--webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.1);
-box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.1);
-}
-.navbar-search-sm {
-	margin-right: 30px;
-}
-}
-
 /*---------------------------Main Things-------------------------------*/
 
 #main-row {
@@ -911,7 +866,13 @@ display: none;
 }
 
 .list-inline a {
+	text-decoration: none;
 	color: #3b3b3b;
+	transition: all .3s;
+}
+
+.list-inline a:hover{
+	color: red;
 }
 
 footer .col-md-4 {
@@ -1014,4 +975,93 @@ input[type="submit"].small.button,
 input[type="button"].small.button,
 button.small.button {
 	padding: 4px 15px;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+	
+	.navbar-search-sm {
+		margin-right: 0px;
+	}
+	footer .col-md-4 {
+		width: 100%;
+	}
+	footer .col-md-4:first-child {
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	}
+	footer .col-md-4:last-child {
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	}
+	.envelope {
+ 		margin-left: 0px;
+ 		margin-top: 20px;
+	}
+	.slider {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.navbar-form {
+		padding: 0px;
+		border:0px;
+		-webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.1);
+		box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.1);
+	}
+	.navbar-search-sm {
+		margin-right: 30px;
+	}
+	.list-inline > li {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.list-inline > li:last-child {
+		margin-bottom: 12px;
+	}
+	#footer{
+		height: 100%;
+	}
+	.list-inline a
+}
+
+@media (max-width: 500px){
+	footer .col-md-4:first-child{
+		width: 70%;
+	}
+	.envelope{
+		width: 50%;
+	}
 }
