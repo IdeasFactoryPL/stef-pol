@@ -163,6 +163,8 @@ padding-left:5px;
 	#height:152px;
 }
 
+
+
 .logo-row{
 #margin-bottom:20px;
 #max-height:173px;
@@ -1007,6 +1009,7 @@ button.small.button {
 	.navbar-search-sm {
 		margin-right: 0px;
 	}
+	/********* footer *********/
 	footer .col-md-4 {
 		width: 100%;
 	}
@@ -1028,6 +1031,24 @@ button.small.button {
 		margin-left: 15px;
 		margin-right: 15px;
 	}
+	/********* menu *********/
+	.nav > li{
+		width: 101%;
+		margin-top: 0px;
+	}
+	/********* oferta *********/
+	#wpc-col-1{
+		width: 100%;
+	}
+	#wpc-col-1 ul li a {
+		background: none;
+	}
+	#wpc-col-1 ul{
+		margin-bottom: 30px;
+	}
+	#wpc-col-2{
+		width: 100%;
+	}
 }
 
 /* Landscape phone to portrait tablet */
@@ -1041,6 +1062,7 @@ button.small.button {
 	.navbar-search-sm {
 		margin-right: 30px;
 	}
+	/********* footer *********/
 	.list-inline > li {
 		margin-left: auto;
 		margin-right: auto;
@@ -1057,7 +1079,18 @@ button.small.button {
 	.list-inline a
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
+	/********* header *********/
+	.ciagnij-right{
+		margin-top: 0px;
+		margin-left: 25%;
+		margin-right: 0;
+		width: 50%;
+		float: left;
+		margin-bottom: 30px;
+	}
+
+	/********* footer *********/
 	footer .col-md-4:first-child{
 		width: 70%;
 	}
