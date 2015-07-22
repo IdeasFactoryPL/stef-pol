@@ -7,7 +7,7 @@
 	margin-bottom: 20px;
 }
 #wpc-col-1 {
-	width:219px;
+	width:20%;
 	float:left;
 	margin: 0 28px 0 0;
 	line-height: inherit;
@@ -30,10 +30,9 @@
 #wpc-col-1 ul li a {
 	display:block;
 	color:#3d484e;
-	font-size:18px;
+	font-size:14px;
 	text-decoration:none;
 	padding:10px 30px 10px 21px;
-	background: url(images/sidebar-sprtr.gif) repeat-y 218px 0;
 	text-transform: capitalize;
 }
 #wpc-col-1 ul li a:hover, #wpc-col-1 ul li.active-wpc-cat a {
@@ -42,13 +41,14 @@
 	color:#ffffff;
 }
 #wpc-col-2 {
-	width: 713px;
+	width: 76%;
 	float:left;
 }
 .wpc-product {
+	width: 50%;
 	border-bottom: #C7C7C7 1px solid;
 	float: left;
-	margin: 0 15px 27px 0;
+	margin: 0 0 0 0;
 }
 .wpc-img {
 	border: 5px solid #dcdbdb;
@@ -151,3 +151,6 @@
 .entry-content img {
 	max-width: inherit !important; /* Fluid images for posts, comments, and widgets */
 }
+
+
+/*My*/

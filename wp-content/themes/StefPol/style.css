@@ -892,17 +892,18 @@ margin-top: 0px;
 
 /*---------------------------OFERTA-------------------------------*/
 
-.page-id-85 .col-md-8{
 
-width: 100%;
-border-right: none;
-    
+.page-id-85 .col-md-8 {
+	width: 100%;
+	border-right: none;
 }
 
 .page-id-85 .sidebar-left {
+	display: none;
+}
 
-display: none;
-    
+.page-id-85 .entry-title {
+	display: none;
 }
 
 
@@ -956,10 +957,6 @@ display: none;
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
-}
-
-/*//butony*/
-.buttons-popup {
 }
 
 .black-button {
