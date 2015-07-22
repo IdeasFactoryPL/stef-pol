@@ -718,6 +718,63 @@ text-align: center;
 }
 
 
+/*--------------------------------------------------------------------------------------------
+Small Buttons
+-------------------------------------------------------------------------------------------- */
+.small {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+	background: #9d0000 url(img/button-overlay.png) repeat-x;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	overflow: visible;
+	padding: 5px 15px 6px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	width: auto;
+	text-align: center;
+}
+
+.small a {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+
+.small span:hover {
+	color: #dd8585;	
+}
+
+.cat-post-widget .small.button {
+	float: right;
+}
+
+
+.small.button {
+	font-size: 11px;
+	padding: 5px 15px 6px;
+	background-image: url(img/small-button-overlay.png);
+}
+
+input[type="submit"].small.button,
+.small.button.input {
+	padding: 3px 15px 4px;
+}
+
+input[type="button"].small.button,
+button.small.button {
+	padding: 4px 15px;
+}
+
+
 /*---------------------------Categories-------------------------------*/
 
 .error404 .sidebar-left {
@@ -848,6 +905,9 @@ display: none;
     
 }
 
+
+/* ---------Oferta POPUP-------------*/
+
 .popup-left {
 	float: left;
 	width: 40%;
@@ -866,14 +926,19 @@ display: none;
 .popup-right h1 {
 	color: #000000;
 	font-size: 20px;
+	margin-top: 10px;
 }
 
 .popup-right h2 {
-	font-size: 15px;
+	font-size: 12px;
+	margin-top: 0px;
+	width: 85%;
 }
 
 .tg {
 	font-size: 12px;
+	margin-top: -10px;
+	margin-left: -25px;
 }
 
 .popup-right td:first-child {
@@ -881,6 +946,35 @@ display: none;
 	text-align: right;
 	padding-right: 13px;
 	width: 27%;
+}
+
+.popup-right .shadow-reverse, .popup-right .shadow {
+	margin-left: -50px;
+}
+
+.popup-right .shadow-reverse img {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/*//butony*/
+.buttons-popup {
+}
+
+.black-button {
+	position:absolute;
+	bottom:30px;
+	left: 30px;
+	background: #070707 url("img/button-overlay.png") repeat-x scroll 0% 0%;
+	color: #d8d8d8;
+}
+
+.white-button {
+	position:absolute;
+	bottom:30px;
+	left: 150px;
+	background: #dddddd url("img/button-overlay.png") repeat-x scroll 0% 0%;
 }
 
 /*---------------------------FOOTER-------------------------------*/
@@ -956,62 +1050,7 @@ footer .row {
 }
 
 
-/*--------------------------------------------------------------------------------------------
-Small Buttons
--------------------------------------------------------------------------------------------- */
-.small {
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
-	background: #9d0000 url(img/button-overlay.png) repeat-x;
-	border: 1px solid rgba(0, 0, 0, 0.25);
-	cursor: pointer;
-	display: inline-block;
-	font-size: 13px;
-	font-weight: bold;
-	line-height: 1;
-	overflow: visible;
-	padding: 5px 15px 6px;
-	position: relative;
-	text-decoration: none;
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-	width: auto;
-	text-align: center;
-}
-
-.small a {
-	color: #FFFFFF !important;
-	text-decoration: none;
-}
-
-.small span:hover {
-	color: #dd8585;	
-}
-
-.cat-post-widget .small.button {
-	float: right;
-}
-
-
-.small.button {
-	font-size: 11px;
-	padding: 5px 15px 6px;
-	background-image: url(img/small-button-overlay.png);
-}
-
-input[type="submit"].small.button,
-.small.button.input {
-	padding: 3px 15px 4px;
-}
-
-input[type="button"].small.button,
-button.small.button {
-	padding: 4px 15px;
-}
-
+/*----------------MEDIA---------------*/
 
 @media (max-width: 991px) {
     .navbar-header {
