@@ -8,7 +8,7 @@
 	<?php do_action('popmake_popup_before_inner'); ?>
 
 	<?php if( popmake_get_the_popup_title() != '' ) : ?>
-	<div class="popmake-title"><?php popmake_the_popup_title(); ?></div>
+<!--	<div class="popmake-title"><?php popmake_the_popup_title(); ?></div>-->
 	<?php endif; ?>
 
 	<?php popmake_the_popup_content(); ?>
