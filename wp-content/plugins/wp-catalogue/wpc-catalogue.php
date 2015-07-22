@@ -155,6 +155,7 @@ function catalogue() {
                     $img = get_post_meta(get_the_id(),'product_img1',true);
                     $price = get_post_meta(get_the_id(),'product_price',true);
 
+//                    $return_string .= '<p>' .$post_content.'</p>';
                     $return_string .= '<!--wpc product-->';
                     $return_string .= '<div class="wpc-product">';
                     $return_string .= '<div class="wpc-img" style="width:' . $twidth . 'px; height:' . $theight . 'px; overflow:hidden"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" height="' . $theight . '" ';
@@ -162,8 +163,9 @@ function catalogue() {
                         if(!get_option('tcroping')){
                             $return_string .=  '" width="' .$img_width. '"'; }
                             $return_string .= '" /></a></div>';
-
-                    $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
+                    
+//        $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
+                    $return_string .= '<p class="wpc-title"><a href="#" class="popmake-' .$post->post_name. '">' . $title . '</a></p>';
                     $return_string .= '</div>';
 
                     $return_string .= '<!--/wpc-product-->';
