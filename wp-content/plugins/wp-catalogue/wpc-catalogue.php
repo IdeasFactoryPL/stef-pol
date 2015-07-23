@@ -82,17 +82,19 @@ function catalogue() {
         if($count>0){
             $return_string .= '<li class="wpc-category ' . $class . '"><a href="'. get_option('catalogue_page_url') .'">Wszystkie produkty</a></li>';	
             
+			
             foreach($termsCatSort as $term){
                 if($term_slug==$term->slug){
                     $class = 'active-wpc-cat';
                 }else{
                     $class = '';
                 }
-                $return_string .=  '<li class="wpc-category '. $class .'"><a href="'.get_term_link($term->slug, 'wpccategories').'">'. $term->name .'</a></li>';                }
+                $return_string .=  '<li class="wpc-category '. $class .'"><a href="'.get_term_link($term->slug, 'wpccategories').'">' .$term->name. '</a></li>';                }
         }else{
             $return_string .=  '<li class="wpc-category"><a href="#">No category</a></li>';	
         }
-
+	
+	
     $return_string .= '</ul>';
     $return_string .=' </div>';
 
@@ -154,8 +156,17 @@ function catalogue() {
                     $permalink = get_permalink();
                     $img = get_post_meta(get_the_id(),'product_img1',true);
                     $price = get_post_meta(get_the_id(),'product_price',true);
+					
+		
+					 $terms1 = get_the_terms($post->id, 'wpccategories');
+						if($terms1){
+							foreach( $terms1 as $term1 ){
+								$tname = $term1->name;
+							}
+						}
+		
+		     		$return_string .= '<p>DUPA x' .$term1->name. 'x</p>';
 
-//                    $return_string .= '<p>' .$post_content.'</p>';
                     $return_string .= '<!--wpc product-->';
                     $return_string .= '<div class="wpc-product">';
                     $return_string .= '<div class="wpc-img" style="width:' . $twidth . 'px; height:' . $theight . 'px; overflow:hidden"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" height="' . $theight . '" ';
