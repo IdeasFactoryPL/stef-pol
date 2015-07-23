@@ -949,6 +949,44 @@ margin-top: 0px;
 }
 
 
+.kategoria_produktow {
+	clear: both;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 0;
+	line-height: 1.0;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #313131;
+}
+
+.kategoria_produktow p {
+	font-size: 15px;
+}
+
+.kategoria_produktow_stripe {
+	clear: both;
+	width: 100%;
+	background-image: url(../openstrap/images/new/red_stripe.jpg);
+	height: 4px;
+	margin-top: -6px;
+	margin-bottom: 20px;
+}
+
+.oferta-right {
+	width: 70%;
+	background-color: aqua;
+}
+
+.wpc-product-link, .wpc-img {
+	width: 30%;
+}
+
+.entry-content img {
+	width: 100%;
+}
 /* ---------Oferta POPUP-------------*/
 
 .popup-left {

@@ -30,7 +30,7 @@
 #wpc-col-1 ul li a {
 	display:block;
 	color:#3d484e;
-	font-size:14px;
+	font-size:12px;
 	text-decoration:none;
 	padding:10px 30px 10px 21px;
 	text-transform: capitalize;
@@ -50,17 +50,20 @@
 	float: left;
 	margin: 0 0 0 0;
 }
+/*
 .wpc-img {
 	border: 5px solid #dcdbdb;
 	margin-bottom: 10px;
 	background: #dcdbdb;
 	font-size: 0;
 }
+*/
 .wpc-next-prev {
 }
 .wpc-next-prev a[rel="next"] {
 	float:right;
 }
+/*
 .wpc-img:hover {
 	border: 5px solid #15845e;
 }
@@ -69,6 +72,7 @@
 	box-shadow: none;
 	height: 110%;
 }
+*/
 .wpc-title {
 	color: #15845e;
 	padding: 0 7px 20px;

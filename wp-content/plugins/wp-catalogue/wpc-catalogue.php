@@ -164,32 +164,40 @@ function catalogue() {
 								$tname = $term1->name;
 							}
 						}
+						
+		if($old_name != $term1->name) {
+			$return_string .= '<div class="kategoria_produktow"><p>' .$term1->name. '</p></div>';
+			$return_string .= '<div class="kategoria_produktow_stripe"></div>';
+		}
+					
+		$old_name = $term1->name;
 		
-		     		$return_string .= '<p>DUPA x' .$term1->name. 'x</p>';
+		
+		     		
 
                     $return_string .= '<!--wpc product-->';
                     $return_string .= '<div class="wpc-product">';
-                    $return_string .= '<div class="wpc-img" style="width:' . $twidth . 'px; height:' . $theight . 'px; overflow:hidden"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" height="' . $theight . '" ';
+                    $return_string .= '<div class="wpc-img"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt=""';
 
-                        if(!get_option('tcroping')){
-                            $return_string .=  '" width="' .$img_width. '"'; }
                             $return_string .= '" /></a></div>';
                     
 //        $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
-                    $return_string .= '<p class="wpc-title"><a href="#" class="popmake-' .$post->post_name. '">' . $title . '</a></p>';
+                    
+					$return_string .= '<div class="oferta-right">';
+					$return_string .= '<p class="wpc-title"><a href="#" class="popmake-' .$post->post_name. '">' . $title . '</a></p>';
 		
 					$content_product = get_post_field('post_content', $post_id);
 					$list = explode("<wyswietl_opis>", $content_product);
 
 					
 					$content_product = array_slice($list,2);
-
-				
 					$return_string .= '<p> ' .reset($content_product). '</p>';////////////////////////////////////////////////////
-
 
                     $return_string .= '</div>';
 
+					$return_string .= '</div>'; /// oferta right
+					
+		
                     $return_string .= '<!--/wpc-product-->';
 
                     if($i == get_option('grid_rows')){
