@@ -79,6 +79,7 @@
                     $img2		=	get_post_meta($post->ID,'product_img2',true);
                     $img3		=	get_post_meta($post->ID,'product_img3',true);
         ?>	 
+<!--
                     <div id="wpc-product-gallery">
                     <?php 
                         if(get_option('image_height')){
@@ -111,8 +112,10 @@
                         </div>
                         <div class="clear"></div>
                     </div>
+-->
         
                     <?php $product_price = get_post_meta($post->ID, 'product_price', true); ?>
+<!--
                     <h4>Product Details
                     <?php
                         if($product_price):
@@ -120,6 +123,7 @@
                             <span class="product-price">Price: <span><?php echo $product_price; ?></span></span>
                     <?php endif; ?>
                     </h4>
+-->
                     
                     <article class="post">
                         <div class="entry-content"> 

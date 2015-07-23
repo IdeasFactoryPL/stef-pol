@@ -73,14 +73,14 @@ function catalogue() {
     $page_url = get_bloginfo('siteurl').'/?wpccategories=/'.$page_slug;
 
     $return_string = '<div id="wpc-catalogue-wrapper">';
-    $return_string .= '<div class="wp-catalogue-breadcrumb"> <a href="'.$catalogue_page_url.'">All Products</a> &gt;&gt; <a href="'.$page_url.'">'.$page_name.'</a>  ' . $pname . '</div>';
+    $return_string .= '<div class="wp-catalogue-breadcrumb"> <a href="'.$catalogue_page_url.'">Wszystkie produkty</a> &gt;&gt; <a href="'.$page_url.'">'.$page_name.'</a>  ' . $pname . '</div>';
     
     $return_string .= '<div id="wpc-col-1">';
     $return_string .= '<ul class="wpc-categories">';
 
         // generating sidebar
         if($count>0){
-            $return_string .= '<li class="wpc-category ' . $class . '"><a href="'. get_option('catalogue_page_url') .'">All Products</a></li>';	
+            $return_string .= '<li class="wpc-category ' . $class . '"><a href="'. get_option('catalogue_page_url') .'">Wszystkie produkty</a></li>';	
             
             foreach($termsCatSort as $term){
                 if($term_slug==$term->slug){
@@ -166,6 +166,17 @@ function catalogue() {
                     
 //        $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
                     $return_string .= '<p class="wpc-title"><a href="#" class="popmake-' .$post->post_name. '">' . $title . '</a></p>';
+		
+					$content_product = get_post_field('post_content', $post_id);
+					$list = explode("<wyswietl_opis>", $content_product);
+
+					
+					$content_product = array_slice($list,2);
+
+				
+					$return_string .= '<p> ' .reset($content_product). '</p>';////////////////////////////////////////////////////
+
+
                     $return_string .= '</div>';
 
                     $return_string .= '<!--/wpc-product-->';
