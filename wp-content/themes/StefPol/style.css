@@ -997,6 +997,37 @@ margin-top: 0px;
 	margin-bottom: 20px;
 }
 
+/* ---------WP-Catalogue-------------*/
+
+#wpc-col-1 {
+    width: 20%;
+}
+
+
+#wpc-col-2 {
+    width: 75%;  
+}
+
+
+/* ---------Pliki do pobrania-------------*/
+
+.wpdm-category .link-btn{
+    
+width: 30%;
+display: inline-block;
+margin-bottom: 20px !important;
+float: left;
+    
+}
+
+.page-id-87 .entry-title {
+    
+display: none;
+
+}
+
+
+
 
 /* ---------Oferta POPUP-------------*/
 
