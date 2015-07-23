@@ -177,9 +177,9 @@ function catalogue() {
 
                     $return_string .= '<!--wpc product-->';
                     $return_string .= '<div class="wpc-product">';
-                    $return_string .= '<div class="wpc-img"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt=""';
+                    $return_string .= '<div class="wpc-img-link"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt=""';
 
-                            $return_string .= '" /></a></div>';
+                            $return_string .= '/></a></div>';
                     
 //        $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
                     

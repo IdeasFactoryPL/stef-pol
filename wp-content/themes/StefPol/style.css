@@ -977,16 +977,27 @@ margin-top: 0px;
 
 .oferta-right {
 	width: 70%;
-	background-color: aqua;
+	float: left;
+	padding: 10px;
 }
 
-.wpc-product-link, .wpc-img {
+.wpc-product-link, .wpc-img-link {
 	width: 30%;
 }
 
-.entry-content img {
+.wpc-img-link {
+	float: left;
+}
+
+.wpc-product-link img {
 	width: 100%;
 }
+
+.wpc-product {
+	margin-bottom: 20px;
+}
+
+
 /* ---------Oferta POPUP-------------*/
 
 .popup-left {
