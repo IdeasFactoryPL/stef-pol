@@ -1009,15 +1009,19 @@ margin-top: 0px;
     width: 75%;  
 }
 
+.carousel-caption h1{
+
+font-size: 30px;
+
+}
+
 
 /* ---------Pliki do pobrania-------------*/
 
 .wpdm-category .link-btn{
     
-width: 30%;
-display: inline-block;
+width: 100%;
 margin-bottom: 20px !important;
-float: left;
     
 }
 
