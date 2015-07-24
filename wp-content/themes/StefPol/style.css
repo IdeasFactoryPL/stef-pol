@@ -969,9 +969,10 @@ margin-top: 0px;
 .kategoria_produktow_stripe {
 	clear: both;
 	width: 100%;
-	background-image: url(../openstrap/images/new/red_stripe.jpg);
+	background-image: url(../openstrap/images/new/red-stripe.png);
+	background-repeat: no-repeat;
 	height: 4px;
-	margin-top: -6px;
+	margin-top: -9px;
 	margin-bottom: 20px;
 }
 
