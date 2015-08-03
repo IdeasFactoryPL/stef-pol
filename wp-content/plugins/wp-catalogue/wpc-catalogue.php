@@ -185,19 +185,27 @@ function catalogue() {
                     
 					$return_string .= '<div class="oferta-right">';
 					$return_string .= '<p class="wpc-title"><a href="#" class="popmake-' .$post->post_name. '">' . $title . '</a></p>';
-		
+
 					$content_product = get_post_field('post_content', $post_id);
 					$list = explode("<wyswietl_opis>", $content_product);
 
 					
 					$content_product = array_slice($list,2);
-					$return_string .= '<p> ' .reset($content_product). '</p>';////////////////////////////////////////////////////
+					$return_string .= '<p> ' .reset($content_product). '</p>';
+        
+        
+                     $return_string .= '<div class="buttons-oferta">';
+                     $return_string .= '<button class="small button white-button popmake-' .$post->post_name. '">Więcej >></button>';
+                     $return_string .= '<a href="http://localhost/stef-pol/wp-content/files/'.$post->post_name.'.pdf" class="small button black-button">Pobierz PDF</a>';
+                     $return_string .='</div>';
 
+
+            
                     $return_string .= '</div>';
 
 					$return_string .= '</div>'; /// oferta right
 					
-		
+		      
                     $return_string .= '<!--/wpc-product-->';
 
                     if($i == get_option('grid_rows')){

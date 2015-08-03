@@ -78,6 +78,8 @@
 	padding: 0 7px 20px;
 	line-height: inherit;
 	margin: 0;
+    width: 90%;
+    padding-left: 0;
 }
 .wpc-title a {
 	font-size: 14px;
@@ -158,3 +160,10 @@
 
 
 /*My*/
+
+.buttons-oferta .white-button, .buttons-oferta .white-button, .buttons-oferta .black-button, .buttons-oferta .black-button {
+    position: static;
+    margin-right: 15px;
+    float: right;
+}
+
