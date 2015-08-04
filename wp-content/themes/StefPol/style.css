@@ -717,6 +717,20 @@ text-align: center;
 	margin-top: 0;
 }
 
+.navbar-inverse .navbar-toggle {
+  border-color: #b73434;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #d02c2c;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border: none;
+}
+
 
 /*--------------------------------------------------------------------------------------------
 Small Buttons
@@ -1176,7 +1190,21 @@ footer .row {
 
 /*----------------MEDIA---------------*/
 
+@media (max-width: 1200px){
+    
+
 @media (max-width: 991px) {
+    
+    .nav > li {
+        border-top: 2px solid #BA0000;
+    }
+    
+    
+    
+    .slider {
+        display: none;
+    }
+    
     .navbar-header {
         float: none;
     }
@@ -1245,6 +1273,7 @@ footer .row {
 	#wpc-col-2{
 		width: 100%;
 	}
+    
 }
 
 /* Landscape phone to portrait tablet */
@@ -1272,25 +1301,91 @@ footer .row {
 	#footer{
 		height: 100%;
 	}
-	
+    
+    footer .col-md-4 {
+        padding-right: 40px;
+        
+	}
+    
+    .nav > li {
+    
+    border-top: 2px solid #BA0000;
+    
+    }
 }
 
 @media (max-width: 550px){
 	/********* header *********/
-	.ciagnij-right{
-		margin-top: 0px;
-		margin-left: 25%;
-		margin-right: 0;
-		width: 50%;
-		float: left;
-		margin-bottom: 30px;
-	}
+    
+    .nav > li {
+    
+    border-top: 2px solid #BA0000;
+    
+    }
+    
+    .front-page-widget-title{
+    
+        font-size: 14px;
+    
+    }
+    
+    .carousel-indicators .active {
+        width: 8px;
+        height: 8px
 
+    }
+    
+    .carousel-caption h1{
+        font-size: 18px;
+    
+    }
+    
+    .carousel-caption p{
+        font-size: 9px;
+    
+    }
+    
+    .header-body h3{
+        font-size: 20px
+        
+    }
+    
+    .header-body p{
+        font-size: 10px
+    
+    }
+    
+    /********* Oferta *********/
+    
+    .wpc-product{
+        width: 100%;
+        display: block !important;
+    
+    }
+    
+    /********* Kontakt *********/
+    
+    
+    .col-md-8 {
+    
+        height: 70%;
+    
+    }
+	
 	/********* footer *********/
+    
+    footer .col-md-4 {
+        padding-right: 45px;
+        
+	}
+    
 	footer .col-md-4:first-child{
 		width: 70%;
+        
 	}
+
 	.envelope{
 		width: 50%;
+        
 	}
 }
