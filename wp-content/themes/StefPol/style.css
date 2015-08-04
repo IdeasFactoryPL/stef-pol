@@ -172,7 +172,18 @@ article.comment {
 }
 
 .site-header {
-    #height: 152px;
+    #height: 152px;  
+}
+
+.site-header .header-body {
+    background: rgba(23,28,31,1);
+    background: -moz-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,28,31,1)), color-stop(100%, rgba(89,98,109,1)));
+    background: -webkit-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
+    background: -o-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
+    background: -ms-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
+    background: linear-gradient(to bottom, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171c1f', endColorstr='#59626d', GradientType=0 );
 }
 
 .logo-row {
@@ -1277,6 +1288,16 @@ footer .row {
     .buttons-oferta .white-button {
         margin: 10px 5px 0px auto;
     }
+    
+    .carousel-caption h1 {
+        font-size: 24px;
+    }
+    
+    .carousel-caption {
+        width: 65%;
+    }
+    
+    
 }
 
 @media (max-width: 991px) {
@@ -1284,7 +1305,7 @@ footer .row {
         margin-bottom: 15px;
     }
     .nav > li {
-        border-top: 2px solid #BA0000;
+        border-top: 2px solid #980d0d;
     }
     .slider {
         display: none;
@@ -1396,9 +1417,7 @@ footer .row {
     footer .col-md-4 {
         padding-right: 40px;
     }
-    .nav > li {
-        border-top: 2px solid #BA0000;
-    }
+
     .header-body h3 {
         font-size: 20px
     }
@@ -1447,9 +1466,7 @@ footer .row {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .nav > li {
-        border-top: 2px solid #BA0000;
-    }
+
     .front-page-widget-title {
         font-size: 14px;
     }
