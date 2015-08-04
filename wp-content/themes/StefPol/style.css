@@ -812,19 +812,25 @@ img#wpstats {
 }
 
 .navbar-inverse .navbar-toggle {
-    /* border-color: #b73434;*/
+    border-color: black;
 }
-
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #4a4a4a !important;
-}
-
-.navbar-inverse .navbar-toggle:focus {}
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border: none;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #939393 !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: black !important;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    background-color: none !important;
 }
 
 a:hover,
@@ -1274,6 +1280,9 @@ footer .row {
 }
 
 @media (max-width: 991px) {
+    .navbar {
+        margin-bottom: 15px;
+    }
     .nav > li {
         border-top: 2px solid #BA0000;
     }
@@ -1424,7 +1433,6 @@ footer .row {
     /********* header *********/
     
     .ciagnij-right {
-        
         max-width: 100%;
         float: left;
         margin: 0 auto;
@@ -1433,15 +1441,12 @@ footer .row {
         margin-bottom: 20px;
         margin-top: 15px;
     }
-    
     .info-kontaktowe {
-        max-width: 100%; 
+        max-width: 100%;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
-    
     .nav > li {
         border-top: 2px solid #BA0000;
     }
@@ -1461,7 +1466,6 @@ footer .row {
         position: static;
         margin: 10px 5px 0px auto;
     }
-    
 }
 
 @media (max-width: 360px) {
