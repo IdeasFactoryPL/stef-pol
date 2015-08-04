@@ -717,6 +717,13 @@ text-align: center;
 	margin-top: 0;
 }
 
+a:hover, a:focus {
+   color: #ffffff;
+}
+
+button:hover {
+   color: #4a4a4a;
+}
 
 /*--------------------------------------------------------------------------------------------
 Small Buttons
@@ -760,8 +767,9 @@ Small Buttons
 
 .small.button {
 	font-size: 11px;
-	padding: 5px 15px 6px;
+	padding: 4px 15px 4px;
 	background-image: url(img/small-button-overlay.png);
+    text-decoration: none;
 }
 
 input[type="submit"].small.button,

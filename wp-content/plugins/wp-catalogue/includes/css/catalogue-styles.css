@@ -161,9 +161,14 @@
 
 /*My*/
 
-.buttons-oferta .white-button, .buttons-oferta .white-button, .buttons-oferta .black-button, .buttons-oferta .black-button {
+.buttons-oferta .black-button, .buttons-oferta .black-button, .buttons-oferta .white-button, .buttons-oferta .white-button {
     position: static;
+    margin: 0 auto;
     margin-right: 15px;
-    float: right;
+    margin-top: 10px;
+
 }
 
+.buttons-oferta .black-button, .buttons-oferta .black-button {
+    float: left;
+}
