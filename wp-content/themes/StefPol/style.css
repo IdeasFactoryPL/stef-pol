@@ -1423,6 +1423,25 @@ footer .row {
 @media (max-width: 550px) {
     /********* header *********/
     
+    .ciagnij-right {
+        
+        max-width: 100%;
+        float: left;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .info-kontaktowe {
+        max-width: 100%; 
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
     .nav > li {
         border-top: 2px solid #BA0000;
     }
@@ -1442,6 +1461,7 @@ footer .row {
         position: static;
         margin: 10px 5px 0px auto;
     }
+    
 }
 
 @media (max-width: 360px) {
