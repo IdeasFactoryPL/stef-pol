@@ -197,10 +197,22 @@ function catalogue() {
                      $return_string .= '<div class="buttons-oferta">';
                      $return_string .= '<button class="big-screen-button small button white-button popmake-' .$post->post_name. '">Więcej >></button>';
                      $return_string .= '<a class="small-screen-button small button white-button" href="'. $permalink .'" class="wpc-product-link">Więcej >></a>';
-                     $return_string .= '<a href="../wp-content/files/'.$post->post_name.'.pdf" class="small button black-button">Pobierz PDF</a>';
+        
+        
+                    if ($slug == 'oferta')
+                        $return_string .= '<a href="../wp-content/files/'.$post->post_name.'.pdf" class="small button black-button">Pobierz PDF</a>';
+                    else
+                        $return_string .= '<a href="../../wp-content/files/'.$post->post_name.'.pdf" class="small button black-button">Pobierz PDF</a>';
+
+
+
+                     
                      $return_string .='</div>';
 
-
+                    
+        
+        
+        
             
                     $return_string .= '</div>';
 
