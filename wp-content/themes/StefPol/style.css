@@ -899,6 +899,7 @@ Small Buttons
     text-decoration: none;
 }
 
+
 input[type="submit"].small.button,
 .small.button.input {
     padding: 3px 15px 4px;
@@ -1201,12 +1202,26 @@ button.small.button {
     color: #d8d8d8;
 }
 
+a { 
+    text-decoration: none;
+}
+
 .white-button {
     position: absolute;
     bottom: 30px;
     left: 150px;
     background: #dddddd url("img/button-overlay.png") repeat-x scroll 0% 0%;
+    color: #1d2222;
 }
+
+.white-button:hover {
+    color: #575a5a;
+}
+
+.small-screen-button {
+    display: none;
+}
+
 /*---------------------------FOOTER-------------------------------*/
 
 .footer-navigtion {
@@ -1398,6 +1413,15 @@ footer .row {
     .category #main-row .col-md-6 .featured-img {
         padding-top: 3px;
     }
+    
+    .big-screen-button {
+        display: none;
+    }
+    
+    .small-screen-button {
+        display: inline-block;
+    }
+    
 }
 /* Landscape phone to portrait tablet */
 
