@@ -172,18 +172,18 @@ article.comment {
 }
 
 .site-header {
-    #height: 152px;  
+    #height: 152px;
 }
 
 .site-header .header-body {
-    background: rgba(23,28,31,1);
-    background: -moz-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,28,31,1)), color-stop(100%, rgba(89,98,109,1)));
-    background: -webkit-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
-    background: -o-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
-    background: -ms-linear-gradient(top, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
-    background: linear-gradient(to bottom, rgba(23,28,31,1) 0%, rgba(89,98,109,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171c1f', endColorstr='#59626d', GradientType=0 );
+    background: rgba(23, 28, 31, 1);
+    background: -moz-linear-gradient(top, rgba(23, 28, 31, 1) 0%, rgba(89, 98, 109, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23, 28, 31, 1)), color-stop(100%, rgba(89, 98, 109, 1)));
+    background: -webkit-linear-gradient(top, rgba(23, 28, 31, 1) 0%, rgba(89, 98, 109, 1) 100%);
+    background: -o-linear-gradient(top, rgba(23, 28, 31, 1) 0%, rgba(89, 98, 109, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(23, 28, 31, 1) 0%, rgba(89, 98, 109, 1) 100%);
+    background: linear-gradient(to bottom, rgba(23, 28, 31, 1) 0%, rgba(89, 98, 109, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#171c1f', endColorstr='#59626d', GradientType=0);
 }
 
 .logo-row {
@@ -1284,8 +1284,6 @@ footer .row {
     width: 100%;
     height: 650px;
 }
-
-
 /*----------------MEDIA---------------*/
 
 @media (max-width: 1200px) {
@@ -1295,24 +1293,18 @@ footer .row {
     .buttons-oferta .white-button {
         margin: 10px 5px 0px auto;
     }
-    
     .carousel-caption h1 {
         font-size: 24px;
     }
-    
     .carousel-caption {
         width: 65%;
     }
-    
-    
 }
 
 @media (max-width: 991px) {
-    
-    .map iframe {    
+    .map iframe {
         height: 550px;
     }
-    
     .navbar {
         margin-bottom: 15px;
     }
@@ -1398,6 +1390,14 @@ footer .row {
     .buttons-oferta .white-button {
         margin: 10px 5px 0px auto;
     }
+    .category #main-row .col-md-6 {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 15px;
+    }
+    .category #main-row .col-md-6 .featured-img {
+        padding-top: 3px;
+    }
 }
 /* Landscape phone to portrait tablet */
 
@@ -1429,7 +1429,6 @@ footer .row {
     footer .col-md-4 {
         padding-right: 40px;
     }
-
     .header-body h3 {
         font-size: 20px
     }
@@ -1446,19 +1445,15 @@ footer .row {
     
     .map {
         display: block;
-                margin: 0 auto;
+        margin: 0 auto;
         width: 90%;
     }
-    
-    .map iframe { 
+    .map iframe {
         height: 450px;
     }
-    
     .col-md-8 {
         height: 70%;
     }
-    
-    
     /********* footer *********/
     
     footer .col-md-4 {
@@ -1470,11 +1465,15 @@ footer .row {
     .envelope {
         width: 50%;
     }
+    .category #main-row .col-md-6 .featured-img {
+        padding-top: 3px;
+    }
 }
 
 @media (max-width: 550px) {
     /********* header *********/
-    .map iframe { 
+    
+    .map iframe {
         height: 350px;
     }
     .ciagnij-right {
@@ -1492,7 +1491,6 @@ footer .row {
         padding-left: 20px;
         padding-right: 20px;
     }
-
     .front-page-widget-title {
         font-size: 14px;
     }
@@ -1509,14 +1507,21 @@ footer .row {
         position: static;
         margin: 10px 5px 0px auto;
     }
+    .category #main-row .col-md-6 h2 {
+        font-size: 24px;
+    }
+    .category #main-row .col-md-6 img {
+        width: 100%;
+    }
+    .category #main-row .col-md-6 .featured-img {
+        padding-top: 3px;
+    }
 }
 
 @media (max-width: 360px) {
-    
-    .map iframe { 
+    .map iframe {
         height: 300px;
     }
-    
     .small.button {
         font-size: 9px;
     }
@@ -1530,5 +1535,16 @@ footer .row {
     }
     .oferta-right {
         width: 100%;
+    }
+    .category #main-row .col-md-6 h2 {
+        font-size: 20px;
+    }
+    .category #main-row .col-md-6 img {
+        width: 87%;
+    }
+    .category #main-row .col-md-6 .featured-img {
+        padding-top: 3px;
+        padding-right: 0px;
+        padding-bottom: 5px;
     }
 }
