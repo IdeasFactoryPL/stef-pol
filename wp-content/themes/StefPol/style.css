@@ -899,7 +899,6 @@ Small Buttons
     text-decoration: none;
 }
 
-
 input[type="submit"].small.button,
 .small.button.input {
     padding: 3px 15px 4px;
@@ -1202,7 +1201,7 @@ button.small.button {
     color: #d8d8d8;
 }
 
-a { 
+a {
     text-decoration: none;
 }
 
@@ -1221,7 +1220,6 @@ a {
 .small-screen-button {
     display: none;
 }
-
 /*---------------------------FOOTER-------------------------------*/
 
 .footer-navigtion {
@@ -1413,15 +1411,12 @@ footer .row {
     .category #main-row .col-md-6 .featured-img {
         padding-top: 3px;
     }
-    
     .big-screen-button {
         display: none;
     }
-    
     .small-screen-button {
         display: inline-block;
     }
-    
 }
 /* Landscape phone to portrait tablet */
 
@@ -1492,6 +1487,20 @@ footer .row {
     .category #main-row .col-md-6 .featured-img {
         padding-top: 3px;
     }
+    .popup-left {
+        width: 100%;
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+    .popup-right {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    .buttons-popup {
+        padding-right: 60px;
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -1539,6 +1548,58 @@ footer .row {
     }
     .category #main-row .col-md-6 .featured-img {
         padding-top: 3px;
+    }
+    .popup-left {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    .popup-right {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .buttons-popup {
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .popup-left {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    .popup-right {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+    .buttons-popup {
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .popup-left img {
+        width: 90%;
+        padding-left: 30px;
+    }
+    .popup-left {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    .popup-right {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .buttons-popup {
+        padding-right: 30px;
+        padding-top: 30px;
     }
 }
 
