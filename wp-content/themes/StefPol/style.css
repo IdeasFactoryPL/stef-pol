@@ -1183,7 +1183,7 @@ button.small.button {
     margin-left: -50px;
 }
 
-.popup-right .shadow-reverse img {
+.shadow-reverse img {
     -ms-transform: rotate(180deg);
     /* IE 9 */
     
@@ -1297,6 +1297,33 @@ footer .row {
     width: 100%;
     height: 650px;
 }
+
+.shadow img, .shadow-reverse img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#wpc-products .shadow img, #wpc-products .shadow-reverse img {
+    width: 90%;
+}
+
+.type-post a {
+    color: #3c3c3c;
+}
+
+.type-post a:hover {
+    text-decoration: underline;
+}
+
+.cat-item a{
+    color: #3c3c3c;
+}
+
+.cat-item a:hover{
+    text-decoration: underline;
+}
+
+
 /*----------------MEDIA---------------*/
 
 @media (max-width: 1200px) {
