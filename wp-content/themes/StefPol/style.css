@@ -1607,6 +1607,10 @@ footer .row {
         padding-right: 50px;
         padding-top: 30px;
     }
+    
+    .popup-right .shadow, .popup-right .shadow-reverse {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 400px) {
