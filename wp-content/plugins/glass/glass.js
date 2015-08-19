@@ -440,7 +440,7 @@ function glassSetLayerStyle1(glass, layer)
     style.zIndex    = '1';
     style.cursor    = 'inherit';
     style.display   = 'inline';
-    style.zIndex    = '750';   
+    style.zIndex    = '1000';   
     style.maxWidth  = 'none';
     style.maxHeight = 'none';
     style.left      = '0px';

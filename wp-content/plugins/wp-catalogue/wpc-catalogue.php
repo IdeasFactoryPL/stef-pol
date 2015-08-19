@@ -180,9 +180,9 @@ function catalogue() {
                     $return_string .= '<div class="wpc-product">';
                     $return_string .= '<div class="shadow-reverse"><img src="http://localhost/stef-pol/wp-content/uploads/2015/07/shadow.png" alt="shadow"></div>';
         
-                    $return_string .= '<div class="wpc-img-link"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt=""';
+                    $return_string .= '<div class="wpc-img-link"><a href="'. $permalink .'" class="wpc-product-link"><span><img src="'. $img .'" alt=""';
 
-                            $return_string .= '/></a></div>';
+                            $return_string .= '/></span></a></div>';
                     
 //        $return_string .= '<p class="wpc-title"><a href="'.$permalink.'">' . $title . '</a></p>';
                     
