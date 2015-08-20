@@ -172,3 +172,25 @@
 .buttons-oferta .black-button, .buttons-oferta .black-button {
     float: left;
 }
+
+
+
+
+
+/*bez bocznego paska*/
+
+.wp-catalogue-breadcrumb {
+    display: none;
+}
+
+#pasek-col-1 {
+    display: none;
+}
+
+#wpc-col-2 {
+    width: 100%;
+}
+
+.buttons-oferta {
+    margin-bottom: 10px;
+}

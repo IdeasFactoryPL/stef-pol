@@ -75,7 +75,7 @@ function catalogue() {
     $return_string = '<div id="wpc-catalogue-wrapper">';
     $return_string .= '<div class="wp-catalogue-breadcrumb"> <a href="'.$catalogue_page_url.'">Wszystkie produkty</a> &gt;&gt; <a href="'.$page_url.'">'.$page_name.'</a>  ' . $pname . '</div>';
     
-    $return_string .= '<div id="wpc-col-1">';
+    $return_string .= '<div id="pasek-col-1">';
     $return_string .= '<ul class="wpc-categories">';
 
         // generating sidebar

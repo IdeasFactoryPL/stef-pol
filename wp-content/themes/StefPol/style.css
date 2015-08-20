@@ -1108,6 +1108,8 @@ button.small.button {
 
 .wpc-product-link img {
     width: 100%;
+    margin-left: -10px;
+    margin-top: 20px;
 }
 
 .wpc-product {
@@ -1115,12 +1117,10 @@ button.small.button {
 }
 /* ---------WP-Catalogue-------------*/
 
+
+
 #wpc-col-1 {
     width: 20%;
-}
-
-#wpc-col-2 {
-    width: 75%;
 }
 
 .carousel-caption h1 {
