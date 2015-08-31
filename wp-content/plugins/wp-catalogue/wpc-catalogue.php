@@ -178,7 +178,7 @@ function catalogue() {
                     $return_string .= '<!--wpc product-->';
 
                     $return_string .= '<div class="wpc-product">';
-                    $return_string .= '<div class="shadow-reverse"><img src="http://localhost/stef-pol/wp-content/uploads/2015/07/shadow.png" alt="shadow"></div>';
+                    $return_string .= '<div class="shadow-reverse"><img src="../../stef-pol/wp-content/uploads/2015/07/shadow.png" alt="shadow"></div>';
         
                     $return_string .= '<div class="wpc-img-link"><a href="'. $permalink .'" class="wpc-product-link"><span><img src="'. $img .'" alt=""';
 
@@ -216,7 +216,7 @@ function catalogue() {
 
             
                     $return_string .= '</div>';
-                    $return_string .= '<div class="shadow"><img src="http://localhost/stef-pol/wp-content/uploads/2015/07/shadow.png" alt="shadow"></div>';
+                    $return_string .= '<div class="shadow"><img src="../../stef-pol/wp-content/uploads/2015/07/shadow.png" alt="shadow"></div>';
 					$return_string .= '</div>'; /// oferta right
 					
 		      
