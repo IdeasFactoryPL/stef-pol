@@ -87,29 +87,29 @@
 //
 function glassShowLicence() 
 {
-  document.body.glass.style.display = 'none';  // Switch off glass.
-  document.body.glass.inLimbo = 2;             // Suppress single click.
-  alert (
-    'Glass.js, create a looking glass effect for images in a HTML page. ' +
-      'Copyright (C) 2011  Jan-Mark S. Wams (jms@cs.vu.nl)' +
-      '\n' +
-      'This program is free software: you can redistribute it and/or modify '+
-      'it under the terms of the GNU General Public License as published by '+
-      'the Free Software Foundation, either version 3 of the License, or ' +
-      '(at your option) any later version.' +
-      '\n' +
-      'This program is distributed in the hope that it will be useful, ' +
-      'but WITHOUT ANY WARRANTY; without even the implied warranty of ' +
-      'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the ' +
-      'GNU General Public License for more details.' +
-      '\n' +
-      'You should have received a copy of the GNU General Public License ' +
-      'along with this program.  If not, see <http://www.gnu.org/licenses/>.' +
-      '\n' +
-      '\n' +
-      'For the WordPress plugin go to: http://www.codeblab.com/glass/'
-  );
-  document.body.glass.inLimbo = 0; // Not in limbo anymore.
+//  document.body.glass.style.display = 'none';  // Switch off glass.
+//  document.body.glass.inLimbo = 2;             // Suppress single click.
+//  alert (
+//    'Glass.js, create a looking glass effect for images in a HTML page. ' +
+//      'Copyright (C) 2011  Jan-Mark S. Wams (jms@cs.vu.nl)' +
+//      '\n' +
+//      'This program is free software: you can redistribute it and/or modify '+
+//      'it under the terms of the GNU General Public License as published by '+
+//      'the Free Software Foundation, either version 3 of the License, or ' +
+//      '(at your option) any later version.' +
+//      '\n' +
+//      'This program is distributed in the hope that it will be useful, ' +
+//      'but WITHOUT ANY WARRANTY; without even the implied warranty of ' +
+//      'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the ' +
+//      'GNU General Public License for more details.' +
+//      '\n' +
+//      'You should have received a copy of the GNU General Public License ' +
+//      'along with this program.  If not, see <http://www.gnu.org/licenses/>.' +
+//      '\n' +
+//      '\n' +
+//      'For the WordPress plugin go to: http://www.codeblab.com/glass/'
+//  );
+//  document.body.glass.inLimbo = 0; // Not in limbo anymore.
   return false;
 }
 
